@@ -13,30 +13,53 @@ FrameZero will adapt to your code instead of you adapting and changing your fram
 - **Performance**: FrameZero is designed to be highly optimized and performant, ensuring your applications run smoothly and efficiently even under heavy loads.
 
 - **Frequently Updated**: FrameZero is actively maintained and updated on a regular basis to incorporate new features, improvements, and bug fixes as well as ensure compatibility with the most recent versions of PHP. Although it is open-source but any development hinders shall be noted here.
-- [ ] Encryption
+## Functions
+
+- [ ] Encryption & Decryption 
 - [ ] User Authentication
-- [ ] Database Abstraction
-- [ ] Caching
-- [ ] File Handling
+- [ ] Database Handling
+- [ ] Database Easy Queries
 - [ ] Error Handling
-- [ ] Validation
-- [ ] Email Sending
-- [ ] Logging
-- [ ] Templating
-- [ ] Routing
-- [ ] Internationalization
-- [ ] Security
-- [ ] RESTful API
-- [ ] Testing
-- [ ] Documentation
+- [ ] Validations
+- [ ] Logging & Debugging
+- [ ] URL Handling
+
 
 ## Getting Started
-Plug-and-Play, after installing the library properly. you can load it
+Plug-and-Play, after installing the library properly. you can load it.
+
+FrameZero offers tracing as well to see what is being executed in the code.  
+**Note: Tracing and Debugging can lead to slower performance**
 ```php
 include 'lib/framezero/main.php'
 
 fz::load();
 // <-- Your code -->
+
+fz_request:set_debug(true); // allow debugging in fz_request class
+fz_request:set_tracing(true); // allow tracing in fz_request class
+
+if(fz_request::request('post', 'form_name')) // Handle request in POST Type, with form name
+{
+  // <-- Tracing Log -->
+  // Line 39: fz_request::request('post', 'form_name')
+  // Class:fz_request
+  // Function: request
+  // Args: 'post', 'form_name'
+  // Result: TRUE
+  
+}
+
+if(fz_request::request('post' )) // Handle request in POST 
+{
+  // <-- Tracing Log -->
+  // Line 39: fz_request::request('post')
+  // Class:fz_request
+  // Function: request
+  // Args: 'post'
+  // Result: TRUE
+ 
+}
 ```
 
 ## Documentation
