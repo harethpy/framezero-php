@@ -3,7 +3,7 @@
 [![PHP](https://img.shields.io/badge/php-%3E%3D7.2-8892BF.svg)](https://php.net/)
 
 ## Introduction
-Without the restrictions and limitations frequently connected with conventional frameworks, FramezZero is a PHP library made to give developers the power and flexibility of a framework. With a wide selection of utility classes and components available, it enables highly adaptable and effective development, enabling developers to create reliable and scalable applications.
+Without the restrictions and limitations frequently connected with conventional frameworks, FrameZero is a PHP library made to give developers the power and flexibility of a framework. With a wide selection of utility classes and components available, it enables highly adaptable and effective development, enabling developers to create reliable and scalable applications.
 
 FrameZero will adapt to your code instead of you adapting and changing your framework to one.
 
