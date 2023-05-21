@@ -41,24 +41,10 @@ fz_request:set_tracing(true); // allow tracing in fz_request class
 
 if(fz_request::request('post', 'form_name')) // Handle request in POST Type, with form name
 {
-  // <-- Tracing Log -->
-  // Line 39: fz_request::request('post', 'form_name')
-  // Class:fz_request
-  // Function: request
-  // Args: 'post', 'form_name'
-  // Result: TRUE
-  
 }
 
 if(fz_request::request('post' )) // Handle request in POST 
 {
-  // <-- Tracing Log -->
-  // Line 39: fz_request::request('post')
-  // Class:fz_request
-  // Function: request
-  // Args: 'post'
-  // Result: TRUE
- 
 }
 ```
 
