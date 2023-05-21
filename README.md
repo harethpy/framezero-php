@@ -15,7 +15,13 @@ FrameZero will adapt to your code instead of you adapting and changing your fram
 - **Frequently Updated**: FrameZero is actively maintained and updated on a regular basis to incorporate new features, improvements, and bug fixes as well as ensure compatibility with the most recent versions of PHP. Although it is open-source but any development hinders shall be noted here.
 
 ## Getting Started
-Import usage here
+Plug-and-Play, after installing the library properly. you can load it
+```php
+include 'lib/framezero/main.php'
+
+fz::load();
+// <-- Your code -->
+```
 
 ## Documentation
 
