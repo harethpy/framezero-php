@@ -1,4 +1,4 @@
-# FrameZero: Framework-like PHP Library
+# FrameZero: Frameless Framework-like PHP Library
 
 [![PHP](https://img.shields.io/badge/php-%3E%3D7.2-8892BF.svg)](https://php.net/)
 
