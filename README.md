@@ -48,6 +48,15 @@ if(fz_request::request('post' )) // Handle request in POST
 }
 ```
 
+Get data from URLs
+```php
+// URL IS index.php/id/1
+fz_url::protect_url();
+fz_url::set_url_data('id', 'number');
+
+$id = fz_url::get_url_data('id');
+```
+
 ## Documentation
 
 For detailed usage instructions and examples, please refer to the [FrameZero Documentation](https://your-documentation-link).
