@@ -13,17 +13,6 @@ FrameZero will adapt to your code instead of you adapting to it
 - **Performance**: FrameZero is designed to be highly optimized and performant, ensuring your applications run smoothly and efficiently even under heavy loads.
 
 - **Frequently Updated**: FrameZero is actively maintained and updated on a regular basis to incorporate new features, improvements, and bug fixes as well as ensure compatibility with the most recent versions of PHP. Although it is open-source but any development hinders shall be noted here.
-## Functions
-
-- [ ] Encryption & Decryption 
-- [ ] User Authentication
-- [ ] Database Handling
-- [ ] Database Easy Queries
-- [ ] Error Handling
-- [ ] Validations
-- [ ] Logging & Debugging
-- [ ] URL Handling
-
 
 ## Getting Started
 Plug-and-Play, after installing the library properly. you can load it.
