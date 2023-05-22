@@ -42,19 +42,6 @@ fz_request:set_tracing(true); // allow tracing in fz_request class
 if(fz_request::request('post', 'form_name')) // Handle request in POST Type, with form name
 {
 }
-
-if(fz_request::request('post' )) // Handle request in POST 
-{
-}
-```
-
-Get data from URLs
-```php
-// URL IS index.php/id/1
-fz_url::protect_url();
-fz_url::set_url_data('id', 'number');
-
-$id = fz_url::get_url_data('id');
 ```
 
 ## Documentation
